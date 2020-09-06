@@ -1,0 +1,526 @@
+
+
+section .t-2{
+  margin: 30px auto auto 60px;
+}
+
+.header {
+  height: 29rem;
+  position: relative;
+  width: auto;
+  background-image: url("./images/Mask_Group_3.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.clearfix::after { content: ""; display: block; clear: both; }
+/* Style the links inside the navigation bar */
+.topnav a {
+    text-align: left;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+}
+.topnav a .fa{
+margin-right: -17rem;
+}
+.topnav-right li {
+  list-style-type: none;
+}
+.topnav-right {
+  display: none;
+  height: 14rem;
+  background-color: #333;
+
+}
+
+.topnav a.icon {
+  color: #000;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.topnav .logo {
+  float: left;
+  padding-left: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.logo h1 {
+  margin-bottom: 0rem;
+  font-size: 1.5rem;
+}
+
+.logo p {
+  margin-top: 0.3rem;
+}
+
+.topnav a:hover {
+  opacity: 0.7;
+}
+.header .titl {
+  font-size: 3rem;
+  top:0rem;
+  margin-left: 40rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 20rem;
+  height: fit-content;
+  padding: 0rem 6rem 0rem 8rem;
+  
+}
+.fa .fa-bars{
+  position: absolute;
+}
+.title-msg{
+  position: absolute;
+}
+.header .msg {
+  width: 50%;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 6rem;
+  font-size: 3rem;
+}
+
+.title {
+  margin: 1rem auto 2rem auto;
+  font: bold 2.5rem black;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  margin-top: 0.5rem;
+  margin-left: 0.12rem;
+  width: 4.6rem;
+  height: 0.2rem;
+  background-color: #005c92;
+}
+section .box {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  display: block;
+}
+
+.box .about {
+  margin: auto auto auto auto;
+  width: 12rem;
+  height: fit-content;
+  background-color: #faf5f5;
+  padding: 0.4rem 2rem 2rem 3rem;
+  border: 0.1rem solid #a38787;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+.box img {
+  margin: 2rem auto 10rem 8rem;
+  width: 20rem;
+  height: 18rem;
+}
+
+section .item {
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+  margin-left: 3rem;
+  padding-bottom: 2rem;
+}
+section .item li {
+  list-style-type: none;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  float: left;
+}
+
+.item a img {
+  width: 16rem;
+  height: 14rem;
+}
+section .item a dl:nth-child(3) {
+    margin-bottom: 0rem;
+    margin-top: 1.6rem;
+  }
+section .item a p:nth-child(2) {
+  margin-top: 0.7rem;
+  font-weight: bold;
+}
+section .item a dd {
+  width: 18rem;
+  margin-top: 0.9rem;
+  height: 0.9rem;
+  font-size: 0.9rem;
+  margin-bottom: 4rem;
+}
+
+section .price {
+  display: block;  
+  overflow: auto;
+  height: 40rem;
+  margin: 10rem 0 5rem auto;
+  background-color: #faf5f5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.9rem;
+  color: black;
+}
+.prices {
+  position: absolute;
+  margin: 10rem auto auto 5rem;
+  width: 19rem;
+  height: 16rem;
+  opacity: 0.8;
+  border: 4px solid #a38787;
+  background-color: #faf5f5;
+}
+.prices p {
+  margin-left: 7rem;
+}
+table {
+  margin-left: 3rem;
+  border-collapse: collapse;
+}
+
+table,
+td,th {
+  border-bottom: 0.1rem dotted black;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.price img {
+  position: absolute;
+  display: flex;
+  margin-top: 4rem;
+  width: 21rem;
+  height: 32rem;
+  right: 3rem;
+  overflow: visible;
+}
+
+section .blog {
+  list-style: none;
+    display: table;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2rem auto auto 3.6rem;
+}
+section .blog a{
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    float: left;
+}
+
+section .blog a img {
+  width: 14rem;
+  height: 11rem;
+}
+
+section .box .address {
+  margin: 5rem auto auto 3.6rem;
+}
+.address .bold {
+  font: 2.5rem bolder;
+  margin: 0.2rem;
+}
+
+section .map {
+  position: absolute;
+  margin: 2rem auto auto 2rem;
+  width: 90%;
+  height: 60%;
+}
+section .Directions-title {
+    display: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+section .Directions-title-phone {
+  padding-top: 10rem;
+  margin: 23rem 2rem 5rem 2.6rem;
+  font-family: 'Montserrat', sans-serif;
+  width: fit-content;
+  left: 0rem;
+}
+section .Directions-title-phone p:first-child{
+    font-weight: bold;
+}
+
+footer .footer {
+  width: 100%;
+  background-color: #262626;
+  padding-bottom: 10rem;
+  text-align: center;
+  border: 0.1rem solid #5c3333;
+}
+.footer p {
+  padding-top: 3.6rem;
+  margin: 6rem auto auto auto;
+  font-size: 57px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    height: 35rem;
+    padding-bottom: 14rem;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .topnav {
+    overflow: hidden;
+  }
+
+  section{
+    width: 60rem; 
+  }
+
+  section .t-2{
+    margin: 3rem auto 1rem auto
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1.8rem 0.6rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-bottom: 1.2rem solid transparent;
+  }
+
+  .topnav a.icon {
+    display: none;
+  }
+  
+  .topnav .logo {
+    float: left;
+    padding-left: 1rem;
+    color: #fff;
+  }
+
+  .logo h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .logo p {
+    margin-top: 0.5rem;
+  }
+
+  .topnav a:hover {
+    display: block;
+    border-radius: 5%;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav-right a.active {
+    border-bottom: 0.3rem solid black;
+    border-radius: 5%;
+    color: black;
+  }
+  
+  .topnav-right {
+    display: block;
+    background:none;
+    height: 10rem;
+    width: 25rem;
+  }
+
+.topnav-right ul{
+  list-style-type: none;
+}
+  .header .titl {
+    position: relative;
+    left: 10%;
+    margin-top: 12%;
+    font-size: 7rem;
+    width: 3rem;
+  }
+  .header .msg {
+    color: #fff;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-size: 2.8rem;
+  }
+
+  .title {
+    font: bold 3rem black;
+  }
+  .title::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    margin-top: 0.7rem;
+    margin-left: 0.1rem;
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #005c92;
+  }
+  section .box {
+    margin-top: 12rem;
+    margin-bottom: 13rem;
+    display: flex;
+  }
+
+  .box .about {
+    width: 17rem;
+    background-color: #faf5f5;
+    padding: 2rem 2rem 4rem 4rem;
+    border: 1px solid #a38787;
+    font-size: 22px;
+  }
+  .box img {
+    margin: auto auto auto 8.5rem;
+    width: 27rem;
+  }
+
+  section .item {
+    width: fit-content;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+  }
+  section .item li {
+    list-style-type: none;
+    margin-right: 2rem;
+    float: left;
+  }
+  .item li a img {
+    width: 20rem;
+    height: 15rem;
+  }
+  section .item a p:nth-child(2) {
+    font-weight: bold;
+  }
+  section .item a p {
+    width: 20rem;
+    height: 1rem;
+    font-size: 1rem;
+  }
+
+  section .price {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 15rem;
+    margin: 10rem auto 10rem auto;
+    font-size: 2.4rem;
+  }
+  .prices {
+    position: absolute;
+    margin: 10rem auto auto 3rem;
+    width: 24rem;
+    height: 20rem;
+    opacity: 0.8;
+    border: 0.12rem solid #a38787;
+    background-color: #faf5f5;
+  }
+  .prices p {
+    margin-left: 9rem;
+  }
+  table {
+    margin-left: 9rem;
+    border-collapse: collapse;
+  }
+
+  table,
+  td,th {
+    border-bottom: 1px dotted black;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+  }
+  .price img {
+    position: absolute;
+    overflow: auto;
+    display: flex;
+    margin-top: 4rem;
+    width:45rem;
+    height: 47rem;
+    right: 8rem;
+  }
+
+  section .item2 {
+    list-style: none;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    height: fit-content;
+  }
+  section .item2 a {
+    margin-top: auto;
+    margin-right: 0.9rem;
+  }
+  section .item2 a img {
+    margin-top: auto;
+    width: 20.2rem;
+    height: 14rem;
+  }
+
+  
+  section .item2 a p:nth-child(2) {
+    font-weight: bold;
+  }
+  section .item2 a p {
+    width: 20rem;
+    height: 1rem;
+    font-size: 1rem;
+  }
+  section .box .address {
+    margin: auto auto auto 0rem;
+  }
+  .address .bold {
+    font: 2.5rem bolder;
+    margin: 0.2rem;
+  }
+  dl dd {
+    margin-left: 0.4rem;
+  }
+
+  section .map {
+    position: absolute;
+    right: 13rem;
+    margin-top: 2.7rem;
+    width: 40rem;
+    height: 30rem;
+  }
+
+  section .Directions-title {
+    display: block;
+    position: relative;
+    margin: 15rem auto 5rem 0rem;
+    width: fit-content;
+    left: 22.9004rem;
+  }
+  section .Directions-title-phone {
+    display: none;
+  }
+
+  footer .footer {
+    width: 100%;
+    background-color: #262626;
+    padding-bottom: 10rem;
+    text-align: center;
+    border: 0.1rem solid #5c3333;
+  }
+  .footer p {
+    padding-top: 4rem;
+    margin: 8rem auto auto auto;
+    font-size: 5rem;
+    color: #fff;
+  }
+}
